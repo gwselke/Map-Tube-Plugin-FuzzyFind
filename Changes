@@ -1,0 +1,64 @@
+Revision history for Map::Tube::Plugin::FuzzyFind
+
+0.81.4 2026-06-26
+  - Improvements to Makefile.PL
+  - Added another test.
+  - Switched to Github as code repository and issue handler.
+
+0.81.3 2026-06-12
+  - Removed code signatures (cpansign is deprecated), replaced with Sigstore/cosign.
+  - More typos in documentation fixed.
+
+0.81.2 2025-04-17
+  - Reworked tests, removing dependency on Map::Tube::London.
+  - Fixed typos in documentation.
+  - Bumped Perl version to 5.12.0.
+
+0.81.1 2024-11-20
+  - Relaxed overly zealous tests.
+
+0.81.0 2024-11-13
+  - Adapted for use with Map::Tube 3.77 and Map::Tube::London 1.39.
+  - Bumped Perl version to 5.10.0.
+  - Use semantic versioning.
+  - Added algorithms Phonix, Phonem, Koeln Phonetics, DoubleMetaphone,
+    Levenshtein-Damerau, Daitch-Mokotoff, Jaro-Winkler
+  - BREAKING CHANGE: By default, limit Metaphone encoding to 4 characters
+    (as per the original Metaphone definition). Use new argument maxcodelen
+    with an explicit value or 0 for unlimited (which was used up to v0.08).
+  - BREAKING CHANGE: Specifying an unknown method will croak (instead of silently
+    using exact matching).
+
+0.08 2015-03-25
+  - Upgraded test 07 to work properly with Map::Tube 2.93.
+
+0.07 2015-03-24
+  - Removed "internal use only" remark in POD left over from test version.
+  - Adapted test 05 to changed diagnostics as of v0.06.
+  - Upgraded test 07 to work properly with Map::Tube 2.92 and M::T::London 0.71.
+    (Thanks to Slaven for pointing this one out!)
+
+0.06 2015-03-12
+  - Catch broken installations of Text::Soundex, as reported by some
+    CPAN testers. (Big thanks to Mohammad (MANWAR) for research into
+    the why and how of this bug.)
+
+0.05 2015-03-10
+  - Fixed MANIFEST.SKIP and tests to cope with ExtUtils::MakeMaker 7.05+
+    (thanks to Slaven's tireless research).
+
+0.04  2015-02-25
+  - Added pod coverage test.
+  - Reworked Makefile.PL (based on hints from Slaven).
+
+0.03  2015-02-23
+  - Rewrote tests to cope with missing optional modules. (Thanks Slaven!)
+  - Added ngram fuzzy matching.
+
+0.02  2015-02-18
+  - Tidied code as per perltidy and perlcritic.
+  - Fixed file permissions in tar ball. (Thanks Slaven!)
+  - Added Soundex and Metaphone fuzzy matching.
+
+0.01  2015-02-14
+  - First public release.

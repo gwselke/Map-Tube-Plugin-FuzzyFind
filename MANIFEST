@@ -1,0 +1,36 @@
+Changes
+lib/Map/Tube/Plugin/FuzzyFind.pm
+Makefile.PL
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
+README
+t/00-load.t
+t/01-exact.t
+t/02-start.t
+t/03-in.t
+t/04-re.t
+t/05-soundex.t
+t/06-phonix.t
+t/07-daitch-mokotoff.t
+t/08-koeln.t
+t/09-metaphone.t
+t/10-doublemetaphone.t
+t/11-phonem.t
+t/12-levenshtein.t
+t/13-levenshtein-damerau.t
+t/14-jaro-winkler.t
+t/15-ngrams.t
+t/49-args.t
+t/50-manifest.t
+t/51-meta-json.t
+t/52-meta-yml.t
+t/53-version.t
+t/60-pod.t
+t/61-pod-coverage.t
+t/62-changes.t
+t/63-kwalitee.t
+t/Sample.pm
+t/sample.xml
