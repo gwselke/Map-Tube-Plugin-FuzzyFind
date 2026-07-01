@@ -555,22 +555,15 @@ Thanks to Mohammad S Anwar, author of L<Map::Tube>, for that module, for great f
 discussions, advice, debugging help, and willingness to refactor his code.
 Thanks to Slaven Rezic for extensive testing and valuable suggestions.
 
-=head1 SUPPORT
+=head1 CONTRIBUTING
 
-You can find documentation for this module with the perldoc command.
-
-    perldoc Map::Tube::Plugin::FuzzyFind
-
-=head1 BUGS
-
-Please report any bugs or feature requests through the web interface at
-L<https://github.com/gwselke/Map-Tube-Plugin-FuzzyFind/issues>. I will be
-notified and then you'll automatically be notified of progress on your
-bug when (and if) I make changes.
+If you find a bug or have an idea for a useful extension, your contribution via
+this module's issue tracker at L<https://github.com/gwselke/Map-Tube-Plugin-FuzzyFind/issues>
+is welcome! Pull requests are also appreciated!
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2015, 2025, 2026 Gisbert W. Selke, Tapirsoft Selke & Selke GbR
+Copyright (C) 2015, 2025--2026 Gisbert W. Selke, Tapirsoft Selke & Selke GbR
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
