@@ -1,6 +1,6 @@
 A Map::Tube plugin to find lines and stations by partially specified or mistyped names.
 
-This is an add-on for L<Map::Tube> to find stations and lines by name, possibly
+This is an add-on for Map::Tube to find stations and lines by name, possibly
 partly or inexactly specified. The module is a Moo role which gets plugged into the
 Map::Tube::* family automatically once it is installed.
 

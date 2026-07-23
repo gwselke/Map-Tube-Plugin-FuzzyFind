@@ -19,7 +19,7 @@ use Moo::Role;
 use namespace::clean;
 use Try::Tiny;
 
-our $VERSION = version->declare('v0.82.0');
+our $VERSION = version->declare('v0.82.1');
 
 =head1 NAME
 
@@ -27,7 +27,7 @@ Map::Tube::Plugin::FuzzyFind - Map::Tube add-on for finding stations and lines b
 
 =head1 VERSION
 
-Version 0.82.0
+Version 0.82.1
 
 
 =head1 DESCRIPTION
